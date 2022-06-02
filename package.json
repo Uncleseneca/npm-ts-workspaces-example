@@ -8,7 +8,7 @@
     "format": "npm run prettier -- --write",
     "format:check": "npm run prettier -- --check",
     "lint": "npm run format:check",
-    "test": "lerna run test",
+    "test": "npm run test --workspaces",
     "prepare": "npm run compile"
   },
   "devDependencies": {
